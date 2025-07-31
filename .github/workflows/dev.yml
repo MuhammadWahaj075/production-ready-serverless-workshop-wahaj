@@ -18,7 +18,7 @@ jobs:
       contents: write
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can 
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
