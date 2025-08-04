@@ -1,5 +1,5 @@
-const cheerio = require('cheerio')
 const when = require('../steps/when')
+const cheerio = require('cheerio')
 const { init } = require('../steps/init')
 
 describe(`When we invoke the GET / endpoint`, () => {
